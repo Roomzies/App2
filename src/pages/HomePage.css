@@ -1,0 +1,111 @@
+/* HomePage.css */
+
+.homepage {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Banner image at the top */
+  .banner-image {
+    width: 100%;
+    max-height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+  }
+  
+  .hero {
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .overlay h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .overlay p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    max-width: 600px;
+  }
+  
+  .cta-button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 12px 35px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff6347;
+  }
+  
+  .features {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .features h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .feature {
+    width: 30%;
+    min-width: 250px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .about {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6em;
+  }
+  
